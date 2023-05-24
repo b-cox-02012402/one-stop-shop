@@ -171,9 +171,12 @@ span.icon-text {
 }
 #table-ex tr td, #table-ex tr th {
     border: 1px solid #ddd;
-    padding: 8px;
     text-align: center;
     word-wrap: normal;
+}
+#table-ex tr th {
+    background-color: lightcyan;
+    text-transform: uppercase;
 }
 #table tr:nth-child(2n+1) {
     background-color: var(--text-theme);
