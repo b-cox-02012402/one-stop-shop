@@ -160,6 +160,25 @@ span.icon-text {
     max-height: 24px;
     max-width: 24px;
 }
+/* table decl's */
+.table-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 940px;
+    height: 680px;
+}
+#table-ex tr td, #table-ex tr th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    word-wrap: normal;
+}
+#table tr:nth-child(2n+1) {
+    background-color: var(--text-theme);
+    color: var(--background-theme);
+}
 /* for smaller screen */
 @media screen and (max-width: 958px) {
     #icon-label {
