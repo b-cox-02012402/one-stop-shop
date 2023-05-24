@@ -143,6 +143,10 @@ span.icon-text {
 .show {
     transform: rotateX(180deg);
 }
+.link-img {
+    max-height: 24px;
+    max-width: 24px;
+}
 @media screen and (max-width: 958px) {
     #icon-label {
         display: none;
