@@ -12,6 +12,7 @@ Updated by BC on May 23, 2023 at 10:46 PM.
 
 <head>
     <meta charset="utf-8">
+    <!-- some links to style sheets and scripts -->
     <link rel="stylesheet" href="https://bcox-33.github.io/one-stop-shop/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,9 +22,11 @@ Updated by BC on May 23, 2023 at 10:46 PM.
 </head>
 
 <body>
+    <!-- top naviagtion bat -->
     <div class="top-nav">
         <!-- Github ribbon from https://github.blog/2008-12-19-github-ribbons/ -->
         <a style="top:0;right:0;"href="https://github.com/bcox-33/one-stop-shop"><img decoding="async" loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+        <!-- title is wrapped in a div for positioning -->
         <div class="title-wrapper">
             <span class="title-span">
                 <h1 class="title">
@@ -31,7 +34,9 @@ Updated by BC on May 23, 2023 at 10:46 PM.
                 </h1>
             </span>
         </div>
+        <!-- browse wrapper for link button -->
         <div class="browse-wrapper">
+            <!-- dropdown content wrapped in div -->
             <div id="browse-dropdown" class="dropdown-content">
                 <a href="https://fonts.google.com">
                     Google Fonts 
@@ -47,6 +52,7 @@ Updated by BC on May 23, 2023 at 10:46 PM.
                     <img class="link-img" src="https://bcox-33.github.io/one-stop-shop/images/shein.jpg" alt="Shein"></a>
             </div>
         </div>
+        <!-- was going to add sidenav but ran outta time, this is my tab wrapper -->
         <div class="sidenav-btn-wrapper">
             <button onclick="dropdown();" id="topnav-btn" class="browse-btn">
                 <span class="icon-text">
@@ -54,18 +60,21 @@ Updated by BC on May 23, 2023 at 10:46 PM.
                     <label id="icon-label">Links!</label>
                 </span>
             </button>
+            <!-- menu -->
             <button id="topnav-btn" class="menu-btn">
                 <span class="icon-text">
                     <i class="material-icons">menu</i>
                     <label id="icon-label">Menu</label>
                 </span>
             </button>
+            <!-- home -->
             <button id="topnav-btn" class="home-btn">
                 <span class="icon-text">
                     <i class="material-icons">home</i>
                     <label id="icon-label">Home</label>
                 </span>
             </button>
+            <!-- cart -->
             <button id="topnav-btn" class="cart-btn">
                 <span class="icon-text">
                     <i class="material-icons">shopping_cart</i>
@@ -74,6 +83,7 @@ Updated by BC on May 23, 2023 at 10:46 PM.
             </button>
         </div>
     </div>
+    <!-- table specifying my completion of this assignment -->
     <section class="table-wrapper">
         <table id="table-ex">
             <tr>
