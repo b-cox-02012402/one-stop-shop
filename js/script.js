@@ -1,5 +1,6 @@
 var isDropdownTriggered = 0;
 const dropDownVariants = ["drop-down", "drop-up"];
+// for dropdown button to display/hide
 function dropdown() {
     document.getElementById("browse-dropdown").classList.toggle("reveal");
     document.getElementById("drop-down").classList.toggle("show");
