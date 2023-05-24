@@ -126,14 +126,17 @@ span.icon-text {
     overflow: hidden;
     height: 0;
     width: 100%;
+    max-height: 160px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
+    height: 40px;
     padding: 8px;
     text-decoration: none;
     display: block;
 }
+/* Reveal dropdown */
 .reveal {
     height: 150px;
 }
