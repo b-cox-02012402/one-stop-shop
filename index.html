@@ -1,0 +1,77 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Brian Cox, UMass Lowell Computer Science, brian_cox1@student.uml.edu
+Copyright (c) 2023 by Brian. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Created by BC on May 16, 2023 at 10:15 PM.
+Updated by BC on May 16, 2023 at 10:46 PM.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Badges" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="top-nav">
+        <div class="title-wrapper">
+            <span class="title-span">
+                <h1 class="title">
+                    Shopping Website
+                </h1>
+            </span>
+        </div>
+        <div class="browse-wrapper">
+            <div id="browse-dropdown" class="dropdown-content">
+                <a href="https://fonts.google.com">
+                    Google Fonts 
+                    <img class="link-img" src="images/google.jpg" alt="Google"></a>
+                <a href="https://angular.io">
+                    Angular: My favorite framework 
+                    <img class="link-img" src="images/angular.jpg" alt="Angular"></a>
+                <a href="https://material.angular.io/components/icon/overview">
+                    Library of these icons! 
+                    <img class="link-img" src="images/icons.jpg" alt="Angular Material Icons"></a>
+                <a href="https://us.shein.com">
+                    Using the SHEIN website as a template for this one 
+                    <img class="link-img" src="images/shein.jpg" alt="Shein"></a>
+            </div>
+        </div>
+        <div class="sidenav-btn-wrapper">
+            <button onclick="dropdown();" id="topnav-btn" class="browse-btn">
+                <span class="icon-text">
+                    <i id="drop-down" class="material-icons">arrow_drop_down</i>
+                    <label id="icon-label">Links!</label>
+                </span>
+            </button>
+            <button id="topnav-btn" class="menu-btn">
+                <span class="icon-text">
+                    <i class="material-icons">menu</i>
+                    <label id="icon-label">Menu</label>
+                </span>
+            </button>
+            <button id="topnav-btn" class="home-btn">
+                <span class="icon-text">
+                    <i class="material-icons">home</i>
+                    <label id="icon-label">Home</label>
+                </span>
+            </button>
+            <button id="topnav-btn" class="cart-btn">
+                <span class="icon-text">
+                    <i class="material-icons">shopping_cart</i>
+                    <label id="icon-label">Cart</label>
+                </span>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
