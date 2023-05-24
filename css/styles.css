@@ -133,7 +133,6 @@ span.icon-text {
     overflow: hidden;
     height: 0;
     width: 100%;
-    max-height: 224px;
 }
 
 /* Links inside the dropdown */
@@ -145,7 +144,7 @@ span.icon-text {
 }
 /* Reveal dropdown */
 .reveal {
-    height: 150px;
+    height: 224px;
 }
 /* hide dropdown */
 .drop-up {
