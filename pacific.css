@@ -56,12 +56,13 @@ nav ul {
   list-style-type: none;
 }
 nav ul li a {
-  color: navy;
   text-decoration: none;
+  color: navy;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 1000;
 }
 nav ul li {
+  color: navy;
   padding: 2px 30px 2px 0;
 }
 #content ul {
