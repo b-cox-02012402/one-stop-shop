@@ -2,7 +2,7 @@
 :root {
     --theme: rgb(29, 30, 34);
     --background-theme: whitesmoke;
-    --text-theme: #44857;
+    --text-theme: #444857;
 }
 body {
     background-color: var(--background-theme);
